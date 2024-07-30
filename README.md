@@ -13,7 +13,7 @@ A simple Todo List application built using Vanilla JavaScript.
 
 ## Description
 
-This Todo List application allows users to create, manage, and track their tasks. It is built using Vanilla JavaScript, without any external libraries or frameworks.
+This Todo List application allows users to create, manage, and track their tasks. It is built using  Typescript and pure HTML/CSS without any external libraries or frameworks.
 
 ## Features
 
@@ -25,8 +25,8 @@ This Todo List application allows users to create, manage, and track their tasks
 
 ## Installation
 
-1. Clone the repository: https://github.com/rebumatadele/Todo-list.git
-2. Navigate to the project directory: cd Todo-list
+1. Clone the repository: https://github.com/rebumatadele/Todo-list-typescript.git
+2. Navigate to the project directory: cd Todo-list-typescript
 3. Open the `index.html` file in your web browser.
 
 ## Usage
@@ -49,7 +49,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 # Todo List Application
 
-This project is a simple and elegant Todo List application that helps users plan and manage their daily activities. It allows users to add, edit, complete, and delete tasks. The application keeps track of the number of pending and completed tasks, providing a clear overview of the user's progress.
+This project is a simple and elegant Todo List application that helps users plan and manage their daily activities. It allows users to add, edit, complete, and delete tasks.
 
 ## Features
 
@@ -57,7 +57,6 @@ This project is a simple and elegant Todo List application that helps users plan
 - Edit existing tasks.
 - Mark tasks as complete, applying a strike-through effect.
 - Delete tasks.
-- Keeps track of completed and pending tasks.
 
 ## Screenshots
 
@@ -71,8 +70,6 @@ Below is a screenshot of the initial page of the Todo List application, where no
 - **Form**: Allows the user to input the task title, details, and start date.
 - **Add Task Button**: Adds the task to the list.
 - **Task List**: Displays a message prompting the user to add tasks.
-- **Task Info**: Shows the count of completed and pending tasks, which are initially zero.
-- **Footer**: Contains the author's name and social media icons.
 
 ### Adding a Task
 
@@ -80,7 +77,7 @@ Below is a screenshot showing the user entering a task title, details, and start
 
 ![Adding a Task](screenshots/add.png)
 
-- **Form**: User enters the task title, details, and start date.
+- **Form**: User enters the task
 - **Add Task Button**: Clicking on this button will add the task to the Todo List.
 
 
@@ -92,7 +89,6 @@ Below is a screenshot showing a task that has been marked as complete:
 
 - **Task List**: Shows a task that has been marked as complete. The title, details, and start date of the completed task are struck through.
 - **Task Actions**: Each task has a checkbox to mark it as complete, an edit button to modify the task, and a delete button to remove the task.
-- **Task Info**: Updates the count of completed and pending tasks accordingly.
 
 ## Editing a Task
 
