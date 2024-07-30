@@ -99,8 +99,8 @@ Below is a screenshot showing the user editing an existing task:
 - **Form**: The selected task's title, details, and start date are populated in the input fields for editing.
 - **Edit Task Button**: Clicking on this button will save the changes made to the task.
 
-## Deleting a Task
+## Searching for a Task
 
-Below is a screenshot showing the state of the application after a task has been deleted:
+Below is a screenshot showing Search property of the app:
 
 ![Tasks Added](screenshots/mark-complete.png)
