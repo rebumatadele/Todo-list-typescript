@@ -1,6 +1,6 @@
 # Todo List
 
-A simple Todo List application built using Vanilla JavaScript.
+A simple Todo List application built using  TypeScript.
 
 ## Table of Contents
 
