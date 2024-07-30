@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">Todo List</h1>
+          <p>Plan Your Day Effectively</p>
+          <form id="search-tasks">
+            <input type="text" placeholder="Search Tasks..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="task-list">
+	    	<h2 class="title">Tasks to complete</h2>
+	    	<ul>
+	    		<!-- <li>
+	    			<span class="name">make lunch</span>
+                    <span class="actions">
+						<input type="checkbox" class="task-checkbox">
+                        <span class="edit">edit</span>
+                        <span class="delete">delete</span>
+                    </span>
+	    		</li> -->
+	    	</ul>
+	    </div>
+	    <form id="add-task">
+	    	<input type="text" placeholder="Add a task..." />
+	    	<button>Add</button>
+	    </form>
+
+    </div>
+
+	<div id="edit-modal" class="modal">
+		<div class="modal-content">
+			<span class="close-button">&times;</span>
+			<form id="edit-form">
+				<input type="text" id="edit-input" placeholder="Edit task..." />
+				<button type="button" id="save-button">Save</button>
+				<button type="button" id ="cancel-button">Cancel</button>
+			</form>
+		</div>
+	  </div>
+	  
+</body>
+</html>
